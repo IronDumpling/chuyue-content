@@ -33,8 +33,30 @@ Pick the category by **what the thing is**, not by the technology it uses.
 
 Where it was made is not a category. Use the optional `context` field instead: `course`, `research`, `work` or `personal`. It shows as a small badge on the project card.
 
+## Link fields (portfolio)
+
+`github`, `demo` and `website` are always a **list**, even for a single link:
+
+```yaml
+github:
+  - url: "https://github.com/you/repo"
+    label: "Frontend"        # optional; falls back to "View on GitHub" (one link)
+                              # or "GitHub Repo 1", "GitHub Repo 2", … (several links)
+demo:
+  - url: "https://example.com"
+website:
+  - url: "https://example.com"
+    label: "View More"
+```
+
+Leave the field out entirely (not `github: ""`) when a project has none. `demo` falls back to "View Demo", `website` to "Visit Website" when `label` is omitted.
+
 ## Bilingual posts
 
-`her-review.mdx` is the English text. Add `her-review.zh.mdx` next to it for a Chinese version (same slug, so the same URL). A post missing one language is shown in the other with a notice.
+`her-review.en.mdx` is the English text. Add `her-review.zh.mdx` next to it for a Chinese version (same slug, so the same URL). A post missing one language is shown in the other with a notice. Every content file carries its language as a suffix — there is no un-suffixed form anymore.
+
+## Editing from a phone
+
+The site serves an editor at `<site>/admin/` (Sveltia CMS). Sign in with a GitHub fine-grained token scoped to this repository only, with Contents: read and write — never a token with access to the site repository. The editor's fields for each Blog and Portfolio category are generated from the site's `lib/taxonomy.ts`, so they always match this layout.
 
 Every push to `main` triggers a rebuild of the site.
