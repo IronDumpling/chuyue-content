@@ -6,6 +6,7 @@ Blog posts, portfolio projects and their images for the Chuyue site. The site re
 
 - `blog/{category}/{slug}.mdx`
 - `portfolio/{category}/{slug}.mdx`
+- `blog/ratings.en.yml`, `blog/ratings.zh.yml`: the rating scale shown when a reader clicks a review's score — the name and one-line definition of each score 1–10, with optional per-category overrides (`categories`). The site build fails if a default tier is missing or a category is not a review category.
 - `images/blog/...`, `images/portfolio/...` (referenced from MDX as `/images/blog/...`, `/images/portfolio/...`; they mirror the content folders, e.g. `images/blog/films/`)
 
 The folder a file sits in **is** its category, and the category is part of its URL (`/blog/films/her-review/`). Do not write `category:` or `type:` in frontmatter; the folder decides.

@@ -1,0 +1,36 @@
+# Rating scale: what each score means. 5 is the midpoint: a competent work.
+# Every category of reviews can override any field under `categories`; anything not
+# overridden uses the defaults below. See the site repo's design doc for details.
+subtitle: 5 is the baseline — a competent work.
+tiers:
+  - score: 1
+    name: Broken
+    definition: Lacks basic coherence; barely achieves anything it set out to do.
+  - score: 2
+    name: Poor
+    definition: Most of its goals unrealized; only scattered merits.
+  - score: 3
+    name: Weak
+    definition: Several flaws in story, structure or production keep it from holding together.
+  - score: 4
+    name: Flawed
+    definition: Has merits, but its core expression or execution has clear problems.
+  - score: 5
+    name: Competent
+    definition: The baseline. Complete and coherent; craft matches intent, but no standout achievement.
+  - score: 6
+    name: Good
+    definition: Clear strengths worth discussing, but with significant regrets.
+  - score: 7
+    name: Excellent
+    definition: A distinct creative vision, with ingenuity and atmosphere; convincing as a whole.
+  - score: 8
+    name: Exceptional
+    definition: An outstanding contribution in expression, form, craft or cultural meaning.
+  - score: 9
+    name: Masterpiece
+    definition: Exceptional artistic achievement, worth returning to, studying and discussing.
+  - score: 10
+    name: Personal Canon
+    definition: A masterpiece that resonates deeply with my own life; I embrace its flaws.
+categories: []
