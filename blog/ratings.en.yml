@@ -1,7 +1,6 @@
 # Rating scale: what each score means. 5 is the midpoint: a competent work.
 # Every category of reviews can override any field under `categories`; anything not
 # overridden uses the defaults below. See the site repo's design doc for details.
-subtitle: 5 is the baseline — a competent work.
 tiers:
   - score: 1
     name: Broken
