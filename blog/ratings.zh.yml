@@ -6,25 +6,25 @@ tiers:
     name: 严重失败
     definition: 缺乏基本完整性或表达能力，几乎无法实现创作目标。
   - score: 2
-    name: 失败作品
+    name: 失败
     definition: 大部分创作目标未能实现，仅有零星可取之处。
   - score: 3
-    name: 较差作品
+    name: 较差
     definition: 叙事、结构或制作的多处缺陷妨碍作品成立。
   - score: 4
     name: 存在缺陷
     definition: 有可取之处，但核心表达或执行存在明显问题。
   - score: 5
-    name: 合格作品
+    name: 合格
     definition: 完整、成立、制作匹配表达，但缺少突出的艺术成就。
   - score: 6
     name: 值得一看
     definition: 具备明确亮点和讨论价值，但存在显著遗憾。
   - score: 7
-    name: 优秀作品
+    name: 优秀
     definition: 创作意识鲜明，有巧思、有意境，整体令人信服。
   - score: 8
-    name: 杰出作品
+    name: 杰出
     definition: 在表达、形式、技艺或文化意义上有突出贡献。
   - score: 9
     name: 大师之作
