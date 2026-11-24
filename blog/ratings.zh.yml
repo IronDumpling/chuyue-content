@@ -31,4 +31,8 @@ tiers:
   - score: 10
     name: 私人典藏
     definition: 杰作与个人生命经验产生深刻共鸣，愿意接纳它的缺憾。
-categories: []
+categories:
+  - category: video-games
+    tiers:
+      - score: 6
+        name: 值得一玩
