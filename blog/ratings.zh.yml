@@ -36,3 +36,11 @@ categories:
     tiers:
       - score: 6
         name: 值得一玩
+  - category: music
+    tiers:
+      - score: 6
+        name: 值得一听
+  - category: books
+    tiers:
+      - score: 6
+        name: 值得一读
